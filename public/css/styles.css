@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.nav-tabs,
+.nav-tabs a,
+.nav-tabs .nav-link {
+  border: none;
+  color: white;
+}
+.nav-item ul {
+  background-color: gray;
+
+}
+.container-menu {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+.container-menu .icon {
+  position: absolute;
+  left: 26px;
+}
+
+.container .cont-elements {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container .cont-elements .ant-card {
+  margin: 16px;
+}
+
+.ant-card-cover {
+  display: flex;
+  justify-content: center;
+}
+.ant-card-cover img {
+  max-width: 200px;
+  padding: 16px;
+}
